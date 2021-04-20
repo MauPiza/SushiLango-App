@@ -1,0 +1,167 @@
+<div
+  fxLayout="row"
+  fxLayout.lg="row"
+  fxLayout.md="row"
+  fxLayout.sm="column"
+  fxLayout.xs="column"
+  fxLayoutAlign="space-between center"
+  fxLayoutAlign.sm="center center"
+  fxLayoutAlign.xs="center center"
+  fxLayoutGap.lg="35px"
+  fxLayoutGap.md="20px"
+  fxLayoutGap.sm="30px"
+  fxLayoutGap.xs="30px"
+>
+  <mat-card>
+    <mat-card-header>
+      <img
+        mat-card-avatar
+        src="assets/images/dashboard-cards-icons/promo.svg"
+        alt="promo icon"
+      />
+      <mat-card-title>Promociones del día</mat-card-title>
+      <mat-card-subtitle
+        >Mira las promociones que tenemos para ti el día de
+        hoy</mat-card-subtitle
+      >
+    </mat-card-header>
+    <hr />
+    <mat-card-content>
+      <div>
+        <img
+          mat-card-image
+          src="assets/images/foodishes/Sushi 4.jpg"
+          alt="foodish image"
+        />
+        <h2>Sushi</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi,
+          excepturi. Similique culpa nam, earum maiores inventore molestias
+          sapiente natus totam asperiores deserunt tempora sit cupiditate iste
+          qui id ea dicta?
+        </p>
+        <div fxLayoutAlign="end center">
+          <span>
+            <br />
+            <br />
+            {{ 100 | currency }}
+          </span>
+        </div>
+      </div>
+    </mat-card-content>
+    <mat-card-actions>
+      <div fxLayout="row" fxLayoutAlign="space-around center">
+        <button mat-icon-button>
+          <mat-icon>arrow_back_ios</mat-icon>
+        </button>
+        <button mat-flat-button routerLink="food-description/1">
+          Leer más...
+        </button>
+
+        <button mat-icon-button>
+          <mat-icon>arrow_forward_ios</mat-icon>
+        </button>
+      </div>
+    </mat-card-actions>
+  </mat-card>
+  <mat-card>
+    <mat-card-header>
+      <img
+        mat-card-avatar
+        src="assets/images/dashboard-cards-icons/my-last-orders.svg"
+        alt="sushi icon"
+      />
+      <mat-card-title>Tus últimos pedidos</mat-card-title>
+      <mat-card-subtitle>Mira tus últimos pedidos hechos</mat-card-subtitle>
+    </mat-card-header>
+    <hr />
+    <mat-card-content>
+      <div>
+        <img
+          mat-card-image
+          src="assets/images/foodishes/Cafe.jpg"
+          alt="foodish image"
+        />
+        <h2>Sashimi</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi,
+          excepturi. Similique culpa nam, earum maiores inventore molestias
+          sapiente natus totam asperiores deserunt tempora sit cupiditate iste
+          qui id ea dicta?
+        </p>
+        <div fxLayoutAlign="end center">
+          <span>
+            <br />
+            <br />
+            {{ 100 | currency }}
+          </span>
+        </div>
+      </div>
+    </mat-card-content>
+    <mat-card-actions>
+      <div fxLayout="row" fxLayoutAlign="space-around center">
+        <button mat-icon-button>
+          <mat-icon>arrow_back_ios</mat-icon>
+        </button>
+        <button mat-flat-button routerLink="food-description/1">
+          Leer más...
+        </button>
+
+        <button mat-icon-button>
+          <mat-icon>arrow_forward_ios</mat-icon>
+        </button>
+      </div>
+    </mat-card-actions>
+  </mat-card>
+  <mat-card>
+    <mat-card-header>
+      <img
+        mat-card-avatar
+        src="assets/images/dashboard-cards-icons/most-ordened.svg"
+        alt="most ordened icon"
+      />
+      <mat-card-title>Lo más pedido</mat-card-title>
+      <mat-card-subtitle
+        >Lo más pedido por nuestros clientes hasta el momento</mat-card-subtitle
+      >
+    </mat-card-header>
+    <hr />
+    <mat-card-content>
+      <div>
+        <img
+          mat-card-image
+          src="assets/images/foodishes/Postre 1.jpg"
+          alt="foodish image"
+        />
+        <h2>Dangos</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi,
+          excepturi. Similique culpa nam, earum maiores inventore molestias
+          sapiente natus totam asperiores deserunt tempora sit cupiditate iste
+          qui id ea dicta?
+        </p>
+        <div fxLayoutAlign="end center">
+          <span>
+            <br />
+            <br />
+            {{ 100 | currency }}
+          </span>
+        </div>
+      </div>
+    </mat-card-content>
+    <mat-card-actions>
+      <div fxLayout="row" fxLayoutAlign="space-around center">
+        <button mat-icon-button>
+          <mat-icon>arrow_back_ios</mat-icon>
+        </button>
+        <button mat-flat-button routerLink="food-description/1">
+          Leer más...
+        </button>
+
+        <button mat-icon-button>
+          <mat-icon>arrow_forward_ios</mat-icon>
+        </button>
+      </div>
+    </mat-card-actions>
+  </mat-card>
+</div>

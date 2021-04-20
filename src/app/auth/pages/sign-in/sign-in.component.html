@@ -1,0 +1,70 @@
+<div
+  fxLayout="column"
+  fxLayoutAlign="start center"
+  fxLayoutGap="2%"
+  class="container"
+>
+  <h1>Regístrate</h1>
+  <hr />
+  <div
+    class="form-container"
+    fxLayout="row"
+    fxLayout.sm="column"
+    fxLayout.xs="column"
+    fxLayoutGap="40px"
+    fxLayoutGap.sm="30px"
+    fxLayoutGap.xs="30px"
+  >
+    <div
+      id="app-sign-in"
+      fxLayout="column"
+      fxLayoutAlign="start center"
+      fxLayoutGap="10px"
+    >
+      <h2>Crea una cuenta nueva</h2>
+      <hr />
+      <p>
+        <mat-form-field appearance="fill">
+          <mat-label>Nombre completo</mat-label>
+          <input matInput type="text" />
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="fill">
+          <mat-label>Nombre de usuario</mat-label>
+          <input matInput type="text" />
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="fill">
+          <mat-label>Correo electronico</mat-label>
+          <input matInput type="text" placeholder="user123@gmail.com" />
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="fill">
+          <mat-label>Crea una contraseña</mat-label>
+          <input matInput type="password" />
+          <mat-hint>Máximo 10 caracteres</mat-hint>
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="fill">
+          <mat-label>Repite la contraseña</mat-label>
+          <input matInput type="password" />
+        </mat-form-field>
+      </p>
+      <div fxLayout="column" fxLayoutGap="2%">
+        <button mat-raised-button color="warn">Crear cuenta</button>
+        <button mat-raised-button color="secondary" routerLink="auth/login">
+          Ya tengo una cuenta. Deseo iniciar sesión
+        </button>
+      </div>
+    </div>
+    <div fxLayout="column" fxLayoutAlign="start center" fxLayoutGap="10px">
+      <h2>Regístrate con tus redes sociales</h2>
+      <hr />
+      <app-social-network-buttons></app-social-network-buttons>
+    </div>
+  </div>
+</div>

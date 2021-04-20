@@ -1,1 +1,46 @@
-/* You can add global styles to this file, and also import other style files */
+/* Default styles */
+html,
+body {
+  height: 100%;
+  background-color: rgb(243, 243, 243) !important;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+hr {
+  /*That supply the <<mat-divider>>*/
+  display: block;
+  margin: 10px 0 10px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  width: 100%;
+}
+
+/*Own styles*/
+@font-face {
+  font-family: "Kashima Demo";
+  src: url("assets/fonts/KashimaDemo.otf");
+}
+@font-face {
+  font-family: "Firebrathers";
+  src: url("assets/fonts/FireBrathers.otf");
+}
+@font-face {
+  font-family: "Remachine Script";
+  src: url("assets/fonts/Remachine-Script.ttf");
+}
+@font-face {
+  font-family: "Typo Round Bold Demo";
+  src: url("assets/fonts/Typo_Round_Bold_Demo.otf");
+}
+@font-face {
+  font-family: "Typo Round Regular Demo";
+  src: url("assets/fonts/Typo_Round_Regular_Demo.otf");
+}
+.menubar {
+  background-color: white;
+  margin-bottom: 4%;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 0px 2px 15px #999;
+}

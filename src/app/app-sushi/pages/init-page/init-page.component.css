@@ -1,0 +1,34 @@
+.init-sushiPage-outlet {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+span {
+  color: #313131;
+  text-shadow: 2px 2px 2px #cecece;
+}
+#sushi {
+  font-family: "Kashima Demo";
+  font-size: 40px;
+}
+#lango {
+  font-family: "Chiller";
+  font-size: 45px;
+}
+#typography {
+  padding-top: 5px;
+}
+
+.menubar {
+  padding: 8px;
+  width: 100%;
+  color: #303030;
+}
+mat-drawer-container {
+  background-color: white;
+  color: black;
+}
+mat-drawer {
+  background-color: white;
+  box-shadow: 3px 0px 4px #303030;
+  color: #1a1a1a;
+}

@@ -1,0 +1,34 @@
+h1 {
+  font-family: "Firebrathers", Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+mat-label {
+  color: #629136;
+}
+mat-hint {
+  color: olivedrab;
+}
+mat-form-field {
+  padding-top: 10%;
+}
+span {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: saddlebrown;
+}
+/* input styles */
+::ng-deep.mat-form-field-underline {
+  /*change color of underline*/
+  background-color: orange !important;
+}
+
+::ng-deep.mat-form-field-ripple {
+  /*change color of underline when focused*/
+  background-color: orangered !important;
+}
+
+::-webkit-input-placeholder {
+  color: #8da84e;
+}
+button {
+  width: 100%;
+}

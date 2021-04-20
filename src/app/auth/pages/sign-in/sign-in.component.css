@@ -1,0 +1,36 @@
+h1 {
+  font-family: "Firebrathers";
+  font-size: 50px;
+}
+
+mat-label {
+  color: #629136;
+}
+.form-container {
+  padding: 30px;
+}
+mat-hint {
+  color: olivedrab;
+}
+mat-icon {
+  padding-right: 3%;
+}
+
+.container {
+  padding-bottom: 12px;
+}
+/* input styles */
+::ng-deep.mat-form-field-underline {
+  /*change color of underline*/
+  background-color: orange !important;
+}
+
+::ng-deep.mat-form-field-ripple {
+  /*change color of underline when focused*/
+  background-color: orangered !important;
+}
+
+::-webkit-input-placeholder {
+  color: #8da84e;
+}
+/* input styles */

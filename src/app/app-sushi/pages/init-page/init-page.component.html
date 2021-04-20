@@ -1,0 +1,26 @@
+<!-- <app-toolbar></app-toolbar> -->
+<mat-drawer-container fullscreen>
+  <mat-drawer #drawer>
+    <app-sidebar></app-sidebar>
+  </mat-drawer>
+  <mat-drawer-content>
+    <div class="menubar" fxLayout="row" fxLayoutAlign="space-between center">
+      <button mat-icon-button (click)="drawer.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <div id="typography">
+        <span id="sushi">Sushi </span><span id="lango"> Lango</span>
+      </div>
+      <button mat-icon-button>
+        <mat-icon>search</mat-icon>
+      </button>
+    </div>
+
+    <div class="init-sushiPage-outlet" fxLayout="column">
+      <router-outlet></router-outlet>
+    </div>
+    <footer>
+      <app-rapid-actions-menu></app-rapid-actions-menu>
+    </footer>
+  </mat-drawer-content>
+</mat-drawer-container>

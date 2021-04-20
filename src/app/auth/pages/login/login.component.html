@@ -1,0 +1,41 @@
+<div fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="7px">
+  <h1>Inicia sesión</h1>
+  <hr />
+  <div
+    fxLayout="row"
+    fxLayout.sm="column"
+    fxLayout.xs="column"
+    fxLayoutAlign="center center"
+    fxLayoutGap="12%"
+    fxLayoutGap.lg="15%"
+    fxLayoutGap.sm="5%"
+    fxLayoutGap.xs="2%"
+  >
+    <mat-form-field>
+      <mat-label>Ingresa tu correo electrónico</mat-label>
+      <input matInput type="text" />
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Contraseña</mat-label>
+      <input matInput type="password" />
+    </mat-form-field>
+  </div>
+  <div
+    fxLayout="column"
+    fxLayout.sm="column"
+    fxLayout.xs="column"
+    fxLayoutGap="3%"
+    fxLayoutAlign="center center"
+  >
+    <button mat-raised-button color="warn" routerLink="/dashboard">
+      Ingresar
+    </button>
+    <br />
+    <span>
+      ¿No tienes cuenta? <a routerLink="/sign-in">¡Créala ahora!</a>
+    </span>
+    <hr />
+  </div>
+  <h2>Inicia sesión con tus redes sociales</h2>
+  <app-social-network-buttons></app-social-network-buttons>
+</div>
