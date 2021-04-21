@@ -1,1 +1,49 @@
-<p>sidebar works!</p>
+<div fxLayout="column">
+  <div fxLayout="row" fxLayoutAlign="center center">
+    <h1>Configuración</h1>
+  </div>
+  <hr />
+  <mat-slide-toggle color="primary">
+    <span style="padding-left: 15px; font-size: large">Modo oscuro</span>
+  </mat-slide-toggle>
+  <hr />
+  <mat-list fxLayout="column" fxLayoutGap="8%" fxLayoutGap.xs="20px">
+    <mat-list-item>
+      <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="5%">
+        <img src="assets/images/sidebar-icons/historial.svg" alt="historial" />
+        <span>Historial de pedidos</span>
+      </div>
+    </mat-list-item>
+    <mat-list-item>
+      <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="5%">
+        <img src="assets/images/sidebar-icons/faq.svg" alt="FAQ" />
+        <span>Preguntas frecuentes</span>
+      </div>
+    </mat-list-item>
+    <mat-list-item>
+      <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="5%">
+        <img src="assets/images/sidebar-icons/qr.svg" alt="FAQ" />
+        <span>Agrega nuestro contacto a tu agenda</span>
+      </div>
+    </mat-list-item>
+    <mat-list-item>
+      <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="5%">
+        <img src="assets/images/sidebar-icons/share.svg" alt="FAQ" />
+        <span>Compartenos en tus redes sociales</span>
+      </div>
+    </mat-list-item>
+    <mat-list-item>
+      <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="5%">
+        <img src="assets/images/sidebar-icons/mail.svg" alt="FAQ" />
+        <span>Feedback</span>
+      </div>
+    </mat-list-item>
+    <hr />
+    <mat-list-item>
+      <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="5%">
+        <img src="assets/images/sidebar-icons/logout.svg" alt="FAQ" />
+        <span>Cerrar sesión</span>
+      </div>
+    </mat-list-item>
+  </mat-list>
+</div>

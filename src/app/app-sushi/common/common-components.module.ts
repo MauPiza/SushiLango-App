@@ -2,9 +2,9 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { RapidActionsMenuComponent } from './rapid-actions-menu/rapid-actions-menu.component';
-import { MaterialModule } from '../../material/material.module';
-import { FlexLayoutModule } from '@angular/flex-layout';
 import { AppSushiRoutingModule } from '../app-sushi-routing.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { MaterialModule } from '../../material/material.module';
 
 @NgModule({
   declarations: [SidebarComponent, RapidActionsMenuComponent],

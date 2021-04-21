@@ -1,0 +1,24 @@
+h1 {
+  padding-top: 20px;
+  font-family: "Typo Round Bold Demo";
+}
+
+img {
+  width: 32px;
+  height: 32px;
+}
+mat-list-item,
+span {
+  font-family: "Typo Round Regular Demo";
+  color: rgba(12, 12, 12, 0.8) !important;
+  cursor: pointer;
+}
+
+mat-list-item:hover {
+  background-color: rgba(214, 214, 214, 0.658);
+  transition-duration: 800ms;
+}
+mat-slide-toggle {
+  padding-left: 5%;
+  font-family: "Typo Round Regular Demo" !important;
+}
