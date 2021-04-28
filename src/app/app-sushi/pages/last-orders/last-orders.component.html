@@ -1,1 +1,186 @@
-<p>last-orders works!</p>
+<div fxLayout="column" fxLayoutAlign="center center">
+  <h1>Mira tus últimos pedidos</h1>
+  <div fxFill fxLayout="column" fxLayoutAlign="start start">
+    <h2>Esta semana</h2>
+    <hr />
+  </div>
+</div>
+<div fxLayout="column" fxLayoutGap="2%">
+  <mat-card class="bg-light">
+    <mat-card-header>
+      <img
+        mat-card-avatar
+        src="assets/images/calendario.svg"
+        alt="calendar icon"
+      />
+      <mat-card-title> Cielo, Mar y Tierra </mat-card-title>
+      <mat-card-subtitle>
+        ordenado el: <small>04 de diciembre del 2020</small></mat-card-subtitle
+      >
+    </mat-card-header>
+    <mat-card-content>
+      <div
+        fxLayout="row"
+        fxLayout.sm="column"
+        fxLayout.xs="column"
+        fxLayoutGap="2%"
+        fxLayoutGap.sm="5%"
+        fxLayoutGap.xs="5%"
+      >
+        <div fxLayout="column" fxLayoutAlign="start center">
+          <img
+            src="assets/images/foodishes/California Roll 3.jpg"
+            alt="sushi roll"
+          />
+        </div>
+        <div fxLayout="column" fxLayoutGap="8%">
+          <span
+            >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex
+            rem quos delectus incidunt, voluptatibus minima culpa quibusdam?
+            Laboriosam natus id facere? Laudantium id assumenda totam quibusdam
+            voluptas reiciendis tempora!</span
+          >
+          <span class="price">{{ 150 | currency }}</span>
+          <mat-card-actions
+            fxLayoutAlign="end center"
+            fxLayoutGap="5px"
+            fxLayout="row"
+            fxLayout.sm="row"
+            fxLayout.xs="column"
+          >
+            <button mat-flat-button color="primary">
+              <mat-icon>add</mat-icon>
+              Agregar a la orden
+            </button>
+            <button mat-flat-button color="secondary">
+              <mat-icon>favorite</mat-icon>
+              Añadir a favoritos
+            </button>
+            <button mat-flat-button color="accent">
+              <mat-icon>pending</mat-icon>
+              Ver más
+            </button>
+          </mat-card-actions>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+  <mat-card class="bg-light">
+    <mat-card-header>
+      <img
+        mat-card-avatar
+        src="assets/images/calendario.svg"
+        alt="calendar icon"
+      />
+      <mat-card-title> Nombre del platillo </mat-card-title>
+      <mat-card-subtitle>
+        ordenado el: <small>04 de diciembre del 2020</small></mat-card-subtitle
+      >
+    </mat-card-header>
+    <mat-card-content>
+      <div
+        fxLayout="row"
+        fxLayout.sm="column"
+        fxLayout.xs="column"
+        fxLayoutGap="2%"
+        fxLayoutGap.sm="5%"
+        fxLayoutGap.xs="5%"
+      >
+        <div fxLayout="column" fxLayoutAlign="start center">
+          <img
+            src="assets/images/foodishes/California Roll 3.jpg"
+            alt="sushi roll"
+          />
+        </div>
+        <div fxLayout="column" fxLayoutGap="8%">
+          <span
+            >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex
+            rem quos delectus incidunt, voluptatibus minima culpa quibusdam?
+            Laboriosam natus id facere? Laudantium id assumenda totam quibusdam
+            voluptas reiciendis tempora!</span
+          >
+          <span class="price">{{ 150 | currency }}</span>
+          <mat-card-actions
+            fxLayoutAlign="end center"
+            fxLayoutGap="5px"
+            fxLayout="row"
+            fxLayout.sm="row"
+            fxLayout.xs="column"
+          >
+            <button mat-flat-button color="primary">
+              <mat-icon>add</mat-icon>
+              Agregar a la orden
+            </button>
+            <button mat-flat-button color="secondary">
+              <mat-icon>favorite</mat-icon>
+              Añadir a favoritos
+            </button>
+            <button mat-flat-button color="accent">
+              <mat-icon>pending</mat-icon>
+              Ver más
+            </button>
+          </mat-card-actions>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+  <mat-card class="bg-light">
+    <mat-card-header>
+      <img
+        mat-card-avatar
+        src="assets/images/calendario.svg"
+        alt="calendar icon"
+      />
+      <mat-card-title> Nombre del platillo </mat-card-title>
+      <mat-card-subtitle>
+        ordenado el: <small>04 de diciembre del 2020</small></mat-card-subtitle
+      >
+    </mat-card-header>
+    <mat-card-content>
+      <div
+        fxLayout="row"
+        fxLayout.sm="column"
+        fxLayout.xs="column"
+        fxLayoutGap="2%"
+        fxLayoutGap.sm="5%"
+        fxLayoutGap.xs="5%"
+      >
+        <div fxLayout="column" fxLayoutAlign="start center">
+          <img
+            src="assets/images/foodishes/California Roll 3.jpg"
+            alt="sushi roll"
+          />
+        </div>
+        <div fxLayout="column" fxLayoutGap="8%">
+          <span
+            >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex
+            rem quos delectus incidunt, voluptatibus minima culpa quibusdam?
+            Laboriosam natus id facere? Laudantium id assumenda totam quibusdam
+            voluptas reiciendis tempora!</span
+          >
+          <span class="price">{{ 150 | currency }}</span>
+          <mat-card-actions
+            fxLayoutAlign="end center"
+            fxLayoutGap="5px"
+            fxLayout="row"
+            fxLayout.sm="row"
+            fxLayout.xs="column"
+          >
+            <button mat-flat-button color="primary">
+              <mat-icon>add</mat-icon>
+              Agregar a la orden
+            </button>
+            <button mat-flat-button color="secondary">
+              <mat-icon>favorite</mat-icon>
+              Añadir a favoritos
+            </button>
+            <button mat-flat-button color="accent">
+              <mat-icon>pending</mat-icon>
+              Ver más
+            </button>
+          </mat-card-actions>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>

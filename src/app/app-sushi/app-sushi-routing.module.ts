@@ -11,6 +11,8 @@ import { GoToPayComponent } from './toolbar-pages/go-to-pay/go-to-pay.component'
 import { MenuComponent } from './toolbar-pages/menu/menu.component';
 import { ProfileComponent } from './toolbar-pages/profile/profile.component';
 import { InitPageComponent } from './pages/init-page/init-page.component';
+import { FaqComponent } from './pages/faq/faq.component';
+import { FeedbackComponent } from './pages/feedback/feedback.component';
 
 const routes: Routes = [
   {
@@ -51,6 +53,17 @@ const routes: Routes = [
         component: ProfileComponent,
       },
       //END PATHS BELONGED TO 'TOOLBAR-PAGES' FOLDER
+
+      //START PATHS BELONGED TO 'SIDEBAR-PAGES'
+      {
+        path: 'faq',
+        component: FaqComponent,
+      },
+      {
+        path: 'feedback',
+        component: FeedbackComponent,
+      },
+      //END PATHS BELONGED TO 'SIDEBAR-PAGES'
       {
         path: '**',
         component: NotFoundComponent,

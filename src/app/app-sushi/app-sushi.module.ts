@@ -12,6 +12,9 @@ import { FavoritesComponent } from './pages/favorites/favorites.component';
 import { InitPageComponent } from './pages/init-page/init-page.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { ComponentsModule } from '../components/components.module';
+import { FaqComponent } from './pages/faq/faq.component';
+import { FeedbackComponent } from './pages/feedback/feedback.component';
+import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 
 @NgModule({
   declarations: [
@@ -22,10 +25,13 @@ import { ComponentsModule } from '../components/components.module';
     FoodDescriptionComponent,
     FavoritesComponent,
     InitPageComponent,
+    FaqComponent,
+    FeedbackComponent,
   ],
   imports: [
     CommonModule,
     MaterialModule,
+    PrimeNgModule,
     FlexLayoutModule,
     AppSushiRoutingModule,
     CommonComponentsModule,

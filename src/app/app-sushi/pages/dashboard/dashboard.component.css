@@ -4,6 +4,43 @@ span {
   color: #1f1f1f;
   margin-bottom: 50px;
 }
+.banner {
+  transition: 500ms;
+  width: 100% !important;
+  padding: 20% !important;
+  margin-bottom: 2%;
+  background-image: url("/assets/images/foodishes/Platillo4.jpg");
+}
+.banner:hover {
+  transition: 500ms;
+  width: 100% !important;
+  filter: opacity(0.8);
+  padding: 20% !important;
+  margin-bottom: 2%;
+  background-image: url("/assets/images/foodishes/Platillo4.jpg");
+  cursor: pointer;
+}
+.banner h1 {
+  background-color: #1f1f1f8f;
+  padding: 5%;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  font-family: "Typo Round Bold Demo";
+  font-size: xx-large;
+  transition: 500ms;
+}
+.banner h1:hover {
+  background-color: #1f1f1f8f;
+  padding: 5%;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  font-family: "Typo Round Bold Demo";
+  font-size: 33px;
+  transition: 500ms;
+}
+
 .container {
   margin-bottom: 50px;
 }
