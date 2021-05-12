@@ -7,12 +7,12 @@ import { LastOrdersComponent } from './pages/last-orders/last-orders.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { FoodDescriptionComponent } from './pages/food-description/food-description.component';
 import { MostOrdenedComponent } from './pages/most-ordened/most-ordened.component';
-import { GoToPayComponent } from './toolbar-pages/go-to-pay/go-to-pay.component';
-import { MenuComponent } from './toolbar-pages/menu/menu.component';
-import { ProfileComponent } from './toolbar-pages/profile/profile.component';
-import { InitPageComponent } from './pages/init-page/init-page.component';
+import { GoToPayComponent } from './pages/go-to-pay/go-to-pay.component';
+import { MenuComponent } from './pages/menu/menu.component';
+import { ProfileComponent } from './pages/profile/profile.component';
 import { FaqComponent } from './pages/faq/faq.component';
 import { FeedbackComponent } from './pages/feedback/feedback.component';
+import { InitPageComponent } from './pages/init-page/init-page.component';
 
 const routes: Routes = [
   {
@@ -20,7 +20,7 @@ const routes: Routes = [
     component: InitPageComponent,
     children: [
       {
-        path: '',
+        path: 'dashboard',
         component: DashboardComponent,
       },
       {

@@ -14,13 +14,13 @@ span {
 .banner:hover {
   transition: 500ms;
   width: 100% !important;
-  filter: opacity(0.8);
   padding: 20% !important;
   margin-bottom: 2%;
   background-image: url("/assets/images/foodishes/Platillo4.jpg");
   cursor: pointer;
 }
 .banner h1 {
+  backdrop-filter: blur(0.05rem);
   background-color: #1f1f1f8f;
   padding: 5%;
   border-radius: 20px;
@@ -31,12 +31,7 @@ span {
   transition: 500ms;
 }
 .banner h1:hover {
-  background-color: #1f1f1f8f;
-  padding: 5%;
-  border-radius: 20px;
-  text-align: center;
-  color: white;
-  font-family: "Typo Round Bold Demo";
+  backdrop-filter: blur(0.4rem);
   font-size: 33px;
   transition: 500ms;
 }

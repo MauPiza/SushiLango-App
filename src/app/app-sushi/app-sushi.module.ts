@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MaterialModule } from '../material/material.module';
 import { AppSushiRoutingModule } from './app-sushi-routing.module';
-import { CommonComponentsModule } from './common/common-components.module';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { MostOrdenedComponent } from './pages/most-ordened/most-ordened.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
@@ -11,10 +10,11 @@ import { FoodDescriptionComponent } from './pages/food-description/food-descript
 import { FavoritesComponent } from './pages/favorites/favorites.component';
 import { InitPageComponent } from './pages/init-page/init-page.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { ComponentsModule } from '../components/components.module';
 import { FaqComponent } from './pages/faq/faq.component';
 import { FeedbackComponent } from './pages/feedback/feedback.component';
 import { PrimeNgModule } from '../prime-ng/prime-ng.module';
+import { SharedModule } from '../shared/shared.module';
+import { ComponentsModule } from './components/components.module';
 
 @NgModule({
   declarations: [
@@ -34,7 +34,7 @@ import { PrimeNgModule } from '../prime-ng/prime-ng.module';
     PrimeNgModule,
     FlexLayoutModule,
     AppSushiRoutingModule,
-    CommonComponentsModule,
+    SharedModule,
     ComponentsModule,
   ],
 })
