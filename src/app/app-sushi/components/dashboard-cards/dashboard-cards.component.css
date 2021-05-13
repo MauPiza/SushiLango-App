@@ -4,3 +4,6 @@ span {
   color: #1f1f1f;
   margin-bottom: 50px;
 }
+mat-card-header {
+  cursor: pointer;
+}

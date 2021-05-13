@@ -20,7 +20,7 @@ const routes: Routes = [
     component: InitPageComponent,
     children: [
       {
-        path: 'dashboard',
+        path: '',
         component: DashboardComponent,
       },
       {

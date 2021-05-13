@@ -7,7 +7,7 @@ const routes: Routes = [
     loadChildren: () => import('./auth/auth.module').then((m) => m.AuthModule),
   },
   {
-    path: 'sushi-lango',
+    path: 'sushilango',
     loadChildren: () =>
       import('./app-sushi/app-sushi.module').then((m) => m.AppSushiModule),
   },

@@ -18,13 +18,13 @@
           <mat-icon>account_circle</mat-icon>
         </button>
         <mat-menu #menu="matMenu">
-          <button mat-menu-item routerLink="../auth/login">
-            <mat-icon>login</mat-icon>
-            Iniciar sesión
-          </button>
-          <button mat-menu-item routerLink="../auth/login">
-            <mat-icon>logout</mat-icon>
-            Cerrar sesión
+          <button
+            mat-menu-item
+            *ngFor="let item of menuItem"
+            [routerLink]="item.route"
+          >
+            <mat-icon>{{ item.icon }}</mat-icon>
+            {{ item.label }}
           </button>
         </mat-menu>
       </div>

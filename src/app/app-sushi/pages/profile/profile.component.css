@@ -1,0 +1,46 @@
+h1 {
+  padding-top: 20px;
+  font-family: "Typo Round Bold Demo";
+}
+
+.account-panel-title {
+  font-family: "JosefinSlab Regular";
+  font-size: 30px !important;
+}
+.profile-data-container {
+  width: 100%;
+  box-shadow: 5px 0px 6px rgb(66, 66, 66);
+  border-radius: 10px;
+  padding-bottom: 50px;
+  padding: 15px;
+  font-family: "Overpass Regular";
+  margin-bottom: 75px;
+}
+.gold {
+  background: linear-gradient(#dbbe67, white, #dbbe67);
+}
+
+.photo-container {
+  box-shadow: 5px 5px 5px rgb(39, 39, 39);
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
+.profile-data-container button {
+  margin-top: 10px;
+  background: rgb(63, 63, 63) !important;
+  width: 100%;
+}
+#account_circle {
+  font-size: 150px !important;
+}
+#change-photo-profile {
+  color: rgb(226, 82, 82);
+}
+#change-photo-profile:hover {
+  color: rgb(165, 42, 42);
+  cursor: pointer;
+}
+#premium {
+  font-family: "CodeSaver Regular" !important;
+}

@@ -1,1 +1,140 @@
-<p>profile works!</p>
+<div fxLayout="row" fxLayout.xs="column" fxLayoutGap="5%" fxLayoutGap.xs="10%">
+  <!-- Account Info view -->
+  <div
+    fxLayout="column"
+    fxLayoutAlign="center center"
+    class="profile-data-container"
+  >
+    <p fxLayoutAlign="end end" id="change-photo-profile">
+      <mat-icon>add</mat-icon>Cambiar foto de perfil
+    </p>
+    <div class="photo-container">
+      <mat-icon id="account_circle"> account_circle </mat-icon>
+    </div>
+    <h1>{{ username }}</h1>
+    <hr />
+    <div fxLayout="column" fxLayoutAlign="start" fxLayoutGap="5px">
+      <h2>Datos de la cuenta</h2>
+      <p>Email: testemail@gmail.com</p>
+      <p>Cliente desde: diciembre 2020</p>
+      <p>Tipo de membresía: standard</p>
+      <hr />
+      <h2>Datos personales</h2>
+      <p>Nombre completo: {{ name }}</p>
+      <p>Número de teléfono: 3325668594</p>
+      <p>Tarjetas registradas: #</p>
+      <p>Dirección: Avenida Principal, nombre de Calle y número de calle</p>
+    </div>
+    <hr />
+    <button mat-raised-button>
+      <mat-icon>settings</mat-icon>
+      Configuración
+    </button>
+  </div>
+  <!-- Panel view -->
+  <div fxLayout="column" fxLayoutAlign="start center" fxLayoutGap="30px">
+    <div fxLayout="column" fxLayoutAlign="center center">
+      <h1 class="account-panel-title">Bienvenido de vuelta, {{ name }}</h1>
+      <hr />
+    </div>
+    <!-- First row -->
+    <div
+      fxLayout="row"
+      fxLayout.sm="column"
+      fxLayout.xs="column"
+      fxLayoutGap="10px"
+      fxLayoutGap.xs="18px"
+    >
+      <mat-card class="bg-light">
+        <mat-card-header>
+          <img
+            mat-card-avatar
+            src="assets/images/profile-icons/map.svg"
+            alt=""
+          />
+          <mat-card-title>Direcciones/domicilio</mat-card-title>
+          <mat-card-subtitle>Administra tus direcciones</mat-card-subtitle>
+        </mat-card-header>
+        <hr />
+        <mat-card-content>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+          excepturi odit similique eius ratione in impedit cupiditate doloribus!
+          Aut, nesciunt minima eius iusto quas veniam voluptatibus ex! Fugiat,
+          dolorem perspiciatis.
+        </mat-card-content>
+      </mat-card>
+      <mat-card class="bg-light">
+        <mat-card-header>
+          <img
+            mat-card-avatar
+            src="assets/images/profile-icons/trophy.svg"
+            alt=""
+          />
+          <mat-card-title>Puntos y recompensas</mat-card-title>
+          <mat-card-subtitle
+            >acumula puntos de compra y canjéalos por
+            productos</mat-card-subtitle
+          >
+        </mat-card-header>
+        <hr />
+        <mat-card-content>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+          excepturi odit similique eius ratione in impedit cupiditate doloribus!
+          Aut, nesciunt minima eius iusto quas veniam voluptatibus ex! Fugiat,
+          dolorem perspiciatis.
+        </mat-card-content>
+      </mat-card>
+    </div>
+    <!-- Second row -->
+    <div
+      fxLayout="row"
+      fxLayout.sm="column"
+      fxLayout.xs="column"
+      fxLayoutGap="10px"
+      fxLayoutGap.xs="18px"
+    >
+      <mat-card class="bg-light gold">
+        <mat-card-header>
+          <img
+            mat-card-avatar
+            src="assets/images/profile-icons/diamond.svg"
+            alt=""
+          />
+          <mat-card-title>Hazte premium</mat-card-title>
+          <mat-card-subtitle
+            >Cambia a una suscripción premium y recibe ofertas únicas y grandes
+            beneficios</mat-card-subtitle
+          >
+        </mat-card-header>
+        <hr />
+        <mat-card-content>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+          excepturi odit similique eius ratione in impedit cupiditate doloribus!
+          Aut, nesciunt minima eius iusto quas veniam voluptatibus ex! Fugiat,
+          dolorem perspiciatis.
+        </mat-card-content>
+      </mat-card>
+      <mat-card class="bg-light">
+        <mat-card-header>
+          <img
+            mat-card-avatar
+            src="assets/images/profile-icons/tarjeta.svg"
+            alt=""
+          />
+          <mat-card-title>Métodos de pago</mat-card-title>
+          <mat-card-subtitle
+            >Agrega un método de pago, mira tus métodos de
+            pago</mat-card-subtitle
+          >
+        </mat-card-header>
+        <hr />
+        <mat-card-content>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+          excepturi odit similique eius ratione in impedit cupiditate doloribus!
+          Aut, nesciunt minima eius iusto quas veniam voluptatibus ex! Fugiat,
+          dolorem perspiciatis.
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>

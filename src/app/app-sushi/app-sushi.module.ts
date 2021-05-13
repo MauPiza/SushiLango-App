@@ -15,6 +15,7 @@ import { FeedbackComponent } from './pages/feedback/feedback.component';
 import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 import { SharedModule } from '../shared/shared.module';
 import { ComponentsModule } from './components/components.module';
+import { ProfileComponent } from './pages/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { ComponentsModule } from './components/components.module';
     InitPageComponent,
     FaqComponent,
     FeedbackComponent,
+    ProfileComponent,
   ],
   imports: [
     CommonModule,
